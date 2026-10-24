@@ -1,6 +1,6 @@
 # dev-skills-kit
 
-dev-swarm 流水线会调用的阶段技能。每个目录可以单独使用。
+dev-swarm 流水线会调用的阶段技能。每个目录可以单独使用，目录内的 `README.md` 说明用途、输入和产出，步骤在 `SKILL.md`。
 
 ## Skills
 

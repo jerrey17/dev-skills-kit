@@ -1,0 +1,22 @@
+{
+  "_comment": "技术方案设计 skill 的知识库访问配置。复制为 kb.config.json 后按需修改。",
+
+  "access_mode": "local",
+
+  "_comment_local": "access_mode=local 时，skill 通过 Read 直接读取 kb_root 下的 Markdown 文件，可选通过 call_kb.py 执行 grep/find 辅助检索",
+
+  "kb_root": "/path/to/your/knowledge-base",
+  "kb_index_file": "_INDEX.md",
+
+  "include_globs": ["**/*.md"],
+  "exclude_globs": [],
+
+  "_comment_mcp_remote": "access_mode=remote_mcp 时，通过 call_kb.py 调用远程 MCP HTTP 端点（原 pay_rag_mcp 模式，保留为可选降级）",
+
+  "mcp_remote": {
+    "type": "STREAMABLE",
+    "url": "https://your-mcp-host/mcp/endpoint",
+    "headers": {},
+    "timeout": 60
+  }
+}

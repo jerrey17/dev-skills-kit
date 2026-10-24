@@ -1,0 +1,9 @@
+{
+  "command": "uvx",
+  "args": ["mcp-server-tapd"],
+  "env": {
+    "TAPD_ACCESS_TOKEN": "xx",
+    "TAPD_API_BASE_URL": "https://api.tapd.cn",
+    "TAPD_BASE_URL": "https://www.tapd.cn"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "新增测试开发工作流"
+  short_description: "基于测试基线完成新增功能的测试设计与自动化测试开发。"
+  default_prompt: "使用 $new-test-development 基于项目测试基线，按单元测试、接口测试、功能测试、编写测试代码的顺序执行新增功能测试开发流程。"

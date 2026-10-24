@@ -1,0 +1,3 @@
+# 用于 call_kb.py 的 remote_mcp 模式（仅 STREAMABLE / Streamable HTTP）
+mcp>=1.10.0,<2
+httpx>=0.27.0

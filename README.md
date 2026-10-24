@@ -2,6 +2,8 @@
 
 dev-swarm 流水线会调用的阶段技能。每个目录可以单独使用，目录内的 `README.md` 说明用途、输入和产出，步骤在 `SKILL.md`。
 
+安装到本机、配置看板后端的步骤在框架仓库的 [快速启动](https://github.com/jerrey17/dev-swarm/blob/main/快速启动.md)。
+
 ## Skills
 
 | Skill | 阶段 |

@@ -1,2 +1,10 @@
 # dev-skills-kit
-研发skill工具箱
+
+A modular kit of skills for the software development lifecycle.
+Each skill runs standalone — use one, or combine them to cover the full dev workflow.
+
+## Skills
+
+| Skill | Description | Standalone |
+|---|---|---|
+| ... | ... | ✅ |
